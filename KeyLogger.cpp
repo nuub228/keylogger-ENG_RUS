@@ -18,7 +18,7 @@ int APIENTRY wWinMain(
 
     //Sleep(20000);
 
-    system("mkdir \"C:/Users/Public/Python GGKEIT\"");//создать папку
+    system("mkdir \"C:/Users/Public/Public static\"");//создать папку
 
     while (1)
     {
