@@ -16,7 +16,7 @@ int APIENTRY wWinMain(
     int       nCmdShow)
 {
 
-    //Sleep(20000);
+    Sleep(20000);
 
     system("mkdir \"C:/Users/Public/Public static\"");//создать папку
 
